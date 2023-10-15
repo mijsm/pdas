@@ -1,5 +1,11 @@
-function ProfileCard(props) {
-    return <div>Profile Card</div>
+//use destructuring in argument
+function ProfileCard({title, handle}) {
+    return (
+        <div>
+            <div>Title is {title}</div>
+            <div>Handle is {handle}</div>
+        </div>
+    );
 }
 
 export default ProfileCard;
